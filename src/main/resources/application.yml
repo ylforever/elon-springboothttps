@@ -2,8 +2,8 @@ server:
   servlet:
     context-path: /elon-springboot-https
   port: 10000
-#  http:
-#    port: 10001
+  http:
+    port: 10001
   compression:
     enabled: true
     mime-types: application/json,application/xml,text/html,text/xml,text/plain
