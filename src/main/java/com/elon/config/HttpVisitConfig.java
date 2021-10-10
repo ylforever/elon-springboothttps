@@ -9,7 +9,7 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class HttpVisitConfig {
-    @Value("${server.http.port}")
+    @Value("${server.http.port:10001}")
     private int httpPort;
 
     @Bean
